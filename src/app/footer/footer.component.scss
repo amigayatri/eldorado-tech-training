@@ -1,0 +1,19 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+footer {
+    background-color: var(--second-alt-color);
+    color: var(--accent-color);
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+
+    a {
+        color: var(--accent-color);
+    }
+
+    padding: 16px 32px;
+
+    @media (min-width:768px) {
+        padding: 16px 64px;
+    }
+}

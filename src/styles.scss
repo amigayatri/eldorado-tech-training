@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+
+html {
+    font-size: 16px;
+
+    --pink: #b8008d;
+    --pastel-pink: #ff99e7;
+    --black: #0f0f0f;
+    --white: #efefef;
+    --lilac: #f1adff;
+    --purple: #440052;
+    --background-color: var(--black);
+    --main-color: var(--white);
+    --accent-color: var(--pastel-pink);
+    --accent-alt-color: var(--pink);
+    --second-color: var(--lilac);
+    --second-alt-color: var(--purple);
+
+    background-color: var(--background-color);
+}
+
+.light-mode {
+    --background-color: var(--white);
+    --main-color: var(--black);
+    --accent-color: var(--purple);
+    --accent-alt-color: var(--lilac);
+    --second-color: var(--pink);
+    --second-alt-color: var(--pastel-pink);
+    background-color: var(--background-color);
+}
+
+
+/* Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+//Material
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
